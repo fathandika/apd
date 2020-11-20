@@ -1,0 +1,10 @@
+  #NIM_2009106044
+angka = int(input("Masukkan angka: "))
+v = 1
+o = 1
+while v <= angka:
+    print (o)
+    o += 1
+    if o == 10:
+        o -= 9
+    v += 1
